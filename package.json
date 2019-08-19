@@ -1,0 +1,11 @@
+{
+    "name": "typescript",
+    "devDependencies": {
+        "@types/node": "latest"
+    },
+    "dependencies": {
+        "@pulumi/aws": "^1.0.0-beta.1",
+        "@pulumi/pulumi": "^0.17.28",
+        "pulumi-appsync-modules": "^1.2.2"
+    }
+}
