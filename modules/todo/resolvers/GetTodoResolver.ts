@@ -1,11 +1,11 @@
-import { GraphQLResolver } from 'pulumi-appsync-modules';
+import { GraphQLResolver } from 'pulumi-appsync-modules';
 import TodoDatasource from '../datasources/TodoDatasource';
 import fakeTodo from '../__fixtures__/fakeTodo';
 
-export default new GraphQLResolver('add-todo-resolver', {
+export default new GraphQLResolver('get-todo-resolver', {
   dataSource: TodoDatasource.name,
-  type: 'Mutation',
-  field: 'addTodo',
+  type: 'Query',
+  field: 'getTodo',
   requestTemplate: `{
     "version": "2017-02-28",
     "payload": {}

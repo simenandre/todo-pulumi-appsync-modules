@@ -1,10 +1,10 @@
 import { GraphQLResolver } from 'pulumi-appsync-modules';
-import TodoDatasource from '../datasources/TodoDatasource';
+import PostDatasource from '../datasources/PostDatasource';
 
-export default new GraphQLResolver('delete-todo-resolver', {
-  dataSource: TodoDatasource.name,
+export default new GraphQLResolver('delete-post-resolver', {
+  dataSource: PostDatasource.name,
   type: 'Mutation',
-  field: 'deleteTodo',
+  field: 'deletePost',
   requestTemplate: `{
     "version": "2017-02-28",
     "payload": {}

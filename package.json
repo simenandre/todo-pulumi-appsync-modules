@@ -1,7 +1,9 @@
 {
     "name": "typescript",
     "devDependencies": {
-        "@types/node": "latest"
+        "@types/faker": "^4.1.5",
+        "@types/node": "latest",
+        "faker": "^4.1.0"
     },
     "dependencies": {
         "@pulumi/aws": "^1.0.0-beta.1",
