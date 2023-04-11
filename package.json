@@ -1,6 +1,6 @@
 {
   "name": "typescript",
-  "repository": "github:cobraz/todo-pulumi-appsync-modules",
+  "repository": "github:simenandre/todo-pulumi-appsync-modules",
   "dependencies": {
     "@pulumi/aws": "^1.0.0-beta.1",
     "@pulumi/pulumi": "^0.17.28",
